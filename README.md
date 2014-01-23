@@ -1,2 +1,2 @@
-sample-ChildView-ios
+sample-ios-ChildView
 ===================
