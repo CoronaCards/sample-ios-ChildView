@@ -1,7 +1,7 @@
 sample-ios-ChildView
 ===================
 
-This example shows you how to embed a CoronaView into an existing view hierarchy. 
+This example shows you how to _embed_ a CoronaView into an existing view hierarchy. 
 
 # Code Overview
 
