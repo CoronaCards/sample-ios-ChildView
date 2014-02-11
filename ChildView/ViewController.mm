@@ -30,10 +30,6 @@
 
 	[self.view addSubview:coronaView];
 
-	// Transparent background
-	coronaView.backgroundColor = [UIColor clearColor];
-	coronaView.opaque = NO;
-
 	[coronaView run];
 }
 
