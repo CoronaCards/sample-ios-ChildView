@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5CCD965C-40F7-401E-A833-2904C056E44B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChildView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91122879-F7F6-40B0-BCFE-9858441CCB6E</key>
+		<string>https://github.com/coronakit/sample-ios-ChildView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChildView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91122879-F7F6-40B0-BCFE-9858441CCB6E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/coronakit/sample-ios-ChildView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91122879-F7F6-40B0-BCFE-9858441CCB6E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91122879-F7F6-40B0-BCFE-9858441CCB6E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sample-ios-ChildView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
