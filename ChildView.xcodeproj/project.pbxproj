@@ -34,11 +34,6 @@
 		071BF5F7189059AC0032F15D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BF5F5189059AC0032F15D /* Main_iPhone.storyboard */; };
 		071BF5FA189059AC0032F15D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BF5F8189059AC0032F15D /* Main_iPad.storyboard */; };
 		071BF5FD189059AC0032F15D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 071BF5FC189059AC0032F15D /* ViewController.mm */; };
-		071BF600189059AC0032F15D /* crate.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF5FF189059AC0032F15D /* crate.png */; };
-		071BF602189059AC0032F15D /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF601189059AC0032F15D /* ground.png */; };
-		071BF604189059AC0032F15D /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 071BF603189059AC0032F15D /* sky.png */; };
-		071BF606189059AC0032F15D /* config.lua in Resources */ = {isa = PBXBuildFile; fileRef = 071BF605189059AC0032F15D /* config.lua */; };
-		071BF608189059AC0032F15D /* main.lua in Resources */ = {isa = PBXBuildFile; fileRef = 071BF607189059AC0032F15D /* main.lua */; };
 		071BF60A189059AD0032F15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071BF609189059AD0032F15D /* Images.xcassets */; };
 		071BF611189059AD0032F15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF610189059AD0032F15D /* XCTest.framework */; };
 		071BF612189059AD0032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5BF189059AC0032F15D /* Foundation.framework */; };
@@ -89,11 +84,6 @@
 		071BF5F9189059AC0032F15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		071BF5FB189059AC0032F15D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		071BF5FC189059AC0032F15D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		071BF5FF189059AC0032F15D /* crate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crate.png; path = Corona/crate.png; sourceTree = "<group>"; };
-		071BF601189059AC0032F15D /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ground.png; path = Corona/ground.png; sourceTree = "<group>"; };
-		071BF603189059AC0032F15D /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = Corona/sky.png; sourceTree = "<group>"; };
-		071BF605189059AC0032F15D /* config.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.lua; path = Corona/config.lua; sourceTree = "<group>"; };
-		071BF607189059AC0032F15D /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.lua; path = Corona/main.lua; sourceTree = "<group>"; };
 		071BF609189059AD0032F15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		071BF60F189059AD0032F15D /* ChildView.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildView.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071BF610189059AD0032F15D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -203,7 +193,6 @@
 				071BF5FB189059AC0032F15D /* ViewController.h */,
 				071BF5FC189059AC0032F15D /* ViewController.mm */,
 				071BF609189059AD0032F15D /* Images.xcassets */,
-				071BF5FE189059AC0032F15D /* Corona */,
 				071BF5EA189059AC0032F15D /* Supporting Files */,
 			);
 			path = ChildView;
@@ -218,18 +207,6 @@
 				071BF5F1189059AC0032F15D /* ChildView-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		071BF5FE189059AC0032F15D /* Corona */ = {
-			isa = PBXGroup;
-			children = (
-				071BF5FF189059AC0032F15D /* crate.png */,
-				071BF601189059AC0032F15D /* ground.png */,
-				071BF603189059AC0032F15D /* sky.png */,
-				071BF605189059AC0032F15D /* config.lua */,
-				071BF607189059AC0032F15D /* main.lua */,
-			);
-			name = Corona;
 			sourceTree = "<group>";
 		};
 		071BF616189059AD0032F15D /* ChildViewTests */ = {
@@ -260,6 +237,7 @@
 				071BF5B8189059AC0032F15D /* Sources */,
 				071BF5B9189059AC0032F15D /* Frameworks */,
 				071BF5BA189059AC0032F15D /* Resources */,
+				0759238318DCBDD000DFF6C1 /* Copy Corona Resources */,
 			);
 			buildRules = (
 			);
@@ -327,14 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				071BF60A189059AD0032F15D /* Images.xcassets in Resources */,
-				071BF606189059AC0032F15D /* config.lua in Resources */,
 				071BF5FA189059AC0032F15D /* Main_iPad.storyboard in Resources */,
 				071BF5F7189059AC0032F15D /* Main_iPhone.storyboard in Resources */,
 				071BF5EE189059AC0032F15D /* InfoPlist.strings in Resources */,
-				071BF604189059AC0032F15D /* sky.png in Resources */,
-				071BF608189059AC0032F15D /* main.lua in Resources */,
-				071BF600189059AC0032F15D /* crate.png in Resources */,
-				071BF602189059AC0032F15D /* ground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +320,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0759238318DCBDD000DFF6C1 /* Copy Corona Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Corona Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Copying Corona\"\nditto -V \"$PROJECT_DIR\"/Corona \"$TARGET_BUILD_DIR\"/\"$EXECUTABLE_FOLDER_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		071BF5B8189059AC0032F15D /* Sources */ = {
