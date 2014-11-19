@@ -2,9 +2,6 @@
 //  ChildviewTests.m
 //  ChildviewTests
 //
-//  Created by Bryan Smith on 1/22/14.
-//  Copyright (c) 2014 Bryan Smith. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 
