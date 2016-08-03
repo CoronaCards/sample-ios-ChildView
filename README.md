@@ -3,6 +3,12 @@ sample-ios-ChildView
 
 This example shows you how to __embed__ a CoronaView into an existing view hierarchy. 
 
+
+### `license.ccdata`
+
+In order for any CoronaCards project to work, you must put a valid `license.ccdata` file into the `Corona`  folder (near `main.lua`), otherwise you'll get a black screen and error message in the console.
+
+
 # Code Overview
 
 ## CoronaView setup (Obj-C)
