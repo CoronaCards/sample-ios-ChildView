@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070F39B318D1331B00BC2BEE /* CoronaCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BE1518B30BE3005CEEB4 /* CoronaCards.framework */; };
 		071BF5C0189059AC0032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5BF189059AC0032F15D /* Foundation.framework */; };
 		071BF5C2189059AC0032F15D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5C1189059AC0032F15D /* CoreGraphics.framework */; };
 		071BF5C4189059AC0032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5C3189059AC0032F15D /* UIKit.framework */; };
@@ -35,12 +34,13 @@
 		071BF5FA189059AC0032F15D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071BF5F8189059AC0032F15D /* Main_iPad.storyboard */; };
 		071BF5FD189059AC0032F15D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 071BF5FC189059AC0032F15D /* ViewController.mm */; };
 		071BF60A189059AD0032F15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071BF609189059AD0032F15D /* Images.xcassets */; };
-		071BF611189059AD0032F15D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF610189059AD0032F15D /* XCTest.framework */; };
 		071BF612189059AD0032F15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5BF189059AC0032F15D /* Foundation.framework */; };
 		071BF613189059AD0032F15D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071BF5C3189059AC0032F15D /* UIKit.framework */; };
 		071BF61B189059AD0032F15D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 071BF619189059AD0032F15D /* InfoPlist.strings */; };
 		071BF61D189059AD0032F15D /* ChildViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071BF61C189059AD0032F15D /* ChildViewTests.m */; };
 		E67999591BFD2D6500300582 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67999431BFC219400300582 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F5488AEB1F4F8B110056FA28 /* CoronaCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A457BE1518B30BE3005CEEB4 /* CoronaCards.framework */; };
+		F5488AED1F4F8F330056FA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5488AEC1F4F8F330056FA28 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,12 +87,12 @@
 		071BF5FC189059AC0032F15D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		071BF609189059AD0032F15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		071BF60F189059AD0032F15D /* ChildView.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildView.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		071BF610189059AD0032F15D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		071BF618189059AD0032F15D /* ChildView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChildView-Info.plist"; sourceTree = "<group>"; };
 		071BF61A189059AD0032F15D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		071BF61C189059AD0032F15D /* ChildViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildViewTests.m; sourceTree = "<group>"; };
 		A457BE1518B30BE3005CEEB4 /* CoronaCards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoronaCards.framework; path = /Users/Shared/CoronaLabs/ios/CoronaCards.framework; sourceTree = "<absolute>"; };
 		E67999431BFC219400300582 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		F5488AEC1F4F8F330056FA28 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				071BF5D8189059AC0032F15D /* GLKit.framework in Frameworks */,
 				071BF5D6189059AC0032F15D /* CoreVideo.framework in Frameworks */,
 				071BF5E2189059AC0032F15D /* OpenGLES.framework in Frameworks */,
-				070F39B318D1331B00BC2BEE /* CoronaCards.framework in Frameworks */,
+				F5488AEB1F4F8B110056FA28 /* CoronaCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				071BF611189059AD0032F15D /* XCTest.framework in Frameworks */,
 				071BF613189059AD0032F15D /* UIKit.framework in Frameworks */,
 				071BF612189059AD0032F15D /* Foundation.framework in Frameworks */,
 			);
@@ -182,7 +181,6 @@
 				071BF5E3189059AC0032F15D /* QuartzCore.framework */,
 				071BF5E5189059AC0032F15D /* Security.framework */,
 				071BF5E7189059AC0032F15D /* SystemConfiguration.framework */,
-				071BF610189059AD0032F15D /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,6 +196,7 @@
 				071BF5FC189059AC0032F15D /* ViewController.mm */,
 				071BF609189059AD0032F15D /* Images.xcassets */,
 				071BF5EA189059AC0032F15D /* Supporting Files */,
+				F5488AEC1F4F8F330056FA28 /* LaunchScreen.storyboard */,
 			);
 			path = ChildView;
 			sourceTree = "<group>";
@@ -311,6 +310,7 @@
 				071BF60A189059AD0032F15D /* Images.xcassets in Resources */,
 				071BF5FA189059AC0032F15D /* Main_iPad.storyboard in Resources */,
 				071BF5F7189059AC0032F15D /* Main_iPhone.storyboard in Resources */,
+				F5488AED1F4F8F330056FA28 /* LaunchScreen.storyboard in Resources */,
 				071BF5EE189059AC0032F15D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,9 +484,7 @@
 		071BF621189059AD0032F15D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -509,9 +507,7 @@
 		071BF622189059AD0032F15D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
